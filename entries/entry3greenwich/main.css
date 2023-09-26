@@ -1,0 +1,26 @@
+body{
+	background-color: mediumaquamarine;
+	background-image: url("imgs/unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;}
+	
+p2{@font-face 
+    font-family: 'burgess-regular';
+    src:
+         url('burgess-regular.woff') format('woff'),
+         url('burgess-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p{font-family: "input-mono", monospace;
+font-weight: 400;
+font-style: italic;}
+
+
+div{background-color: cornsilk;}
+
+.special {width: 100px;}
+
+img{width: 500px;}
+
