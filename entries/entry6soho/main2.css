@@ -1,0 +1,94 @@
+.sohophoto {
+  background-image: url('sohophoto.png');
+  background-size: cover;
+}
+
+@media (max-width: 480px) {
+    .sohophoto {
+        background-image: url(sohophoto.png);
+    }
+}
+
+.paperbag {
+    max-width: 80%; 
+    height: auto;    }
+
+@media (max-width: 480px) {
+    .paperbag {
+      max-width: 40%; 
+      
+    }
+}
+
+.title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  }
+
+.img[src$="paperbag.png"] {
+  padding: 10px;
+}
+
+
+
+.container {
+  display: flex;
+  padding:10px;
+  margin-top: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 300px;
+  font-family: "minion-3", serif;
+  font-weight: 400px;
+  font-style: normal;
+  color:  #2e2d35;
+  font-size:  10px;
+  line-height: 10px;
+  text-align:  justify-all;
+  box-sizing:  border-box;
+}
+
+
+.shopatsoho{
+  font-family: "parfumerie-script", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color:  #2e2d35;
+  font-size: 180px;
+  line-height: 50px;
+  padding-top: 80px;
+  margin-left: 40px;
+  }
+
+@media (max-width: 480px) {
+  .shopatsoho {
+    font-size: 200px;
+  }
+}
+
+.item {
+  margin: 10px 10px;
+  width: 300px;
+}
+
+.item2 {
+  background-color:  #8a849c
+}
+
+.item3 {
+  background-color:  #a099b5;
+}
+
+.item4 {
+  background-color:  #bbb2d3;
+}
+
+.item5 {
+  background-color:  #cbcade;
+}
+
+.item6 {
+  background-color:  #e4e3f9;
+}
