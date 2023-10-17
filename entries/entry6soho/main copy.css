@@ -1,0 +1,161 @@
+.sohophoto {
+  background-image: url('sohophoto.png');
+  background-size: cover;
+}
+
+@media (max-width: 480px) {
+    .sohophoto {
+        background-image: url(sohophoto.png);
+    }
+}
+
+#paper-image {
+    max-width: 100%; /* Image will not exceed its original size */
+    height: auto;    /* Maintain aspect ratio */
+}
+
+@media (max-width: 480px) {
+    #paper-image {
+        max-width: 80%; /* Adjust the max-width for smaller screens (e.g., phones) */
+    }
+}
+
+
+
+
+.title {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  }
+
+
+.ul{ 
+    justify-content: space-between;
+}
+
+
+.img[src$="paperbag.png"] {
+  padding: 10px;
+}
+
+
+
+.container {
+  display: flex;
+  padding:10px;
+  margin-top: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  min-height: 300px;
+  font-family: "minion-3", serif;
+  font-weight: 400px;
+  font-style: normal;
+  color:  #2e2d35;
+  font-size:  10px;
+  line-height: 10px;
+  text-align:  justify-all;
+  box-sizing:  border-box;
+}
+
+
+.shopatsoho{
+  font-family: "parfumerie-script", sans-serif;
+  font-weight: 400px;
+  font-style: normal;
+  color:  #2e2d35;
+  font-size: 180px;
+  line-height: 50px;
+  padding-top: 80px;
+  margin-left: 40px;
+  }
+
+@media (max-width: 480px) {
+  .shopatsoho {
+    font-size: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .shopatsoho {
+    font-size: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+ paper-image {
+    max-width: 50%; 
+  }
+}
+
+
+
+
+.item {
+  margin: 10px 10px;
+  width: 300px;
+}
+
+.item2 {
+  background-color:  #8a849c
+}
+
+.item3 {
+  background-color:  #a099b5;
+}
+
+.item4 {
+  background-color:  #bbb2d3;
+}
+
+.item5 {
+  background-color:  #cbcade;
+}
+
+.item6 {
+  background-color:  #e4e3f9;
+}
+
+.objects {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  position: relative; /* Establish the scrolling context */
+}
+
+.objects img {
+  max-width: 100px; /* Adjust the max-width for smaller images */
+  width: 100%; /* Ensure images don't exceed their container */
+}
+
+.shirt,
+.bag,
+.lamp,
+.shoes2,
+.scarf,
+.bag2,
+.scrub {
+  width: 100%; /* Adjust the width as needed */
+  position: sticky;
+}
+
+/* Adjust the top values for better positioning */
+.shirt {
+  top: 20px;
+}
+
+.bag {
+  top: 100px;
+}
+
+.lamp {
+  top: 200px;
+}
+
+.shoes2 {
+  top: 300px;
+}
+
+.scarf {
+  top
